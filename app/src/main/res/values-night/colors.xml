@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#101010</color>
+    <color name="textcolor">@color/white</color>
+    <color name="background3">#4A4A4A</color>
+    <color name="background2">#373737</color>
+
+    <color name="red">#F44336</color>
+    <color name="light_green">#CBF6CD</color>
+    <color name="green">#269C09</color>
+    <color name="dgreen">#337303</color>
+    <color name="secondary_container_color">#C6E6AB</color>
+</resources>

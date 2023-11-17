@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_round_home_24"
+            android:title="Home">
+        </item>
+        <item android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_baseline_contact_page_24"
+            android:title="Contact Us">
+        </item>
+        <item android:id="@+id/nav_about"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="About Us">
+        </item>
+        <item android:id="@+id/nav_partner"
+            android:icon="@drawable/ic_baseline_person_3_24"
+            android:title="B 2 B - Agent Partners">
+        </item>
+        <item android:id="@+id/nav_booking"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:title="My Booking">
+        </item>
+        <item android:id="@+id/nav_member"
+            android:icon="@drawable/ic_baseline_card_membership_24"
+            android:title="Membership">
+        </item>
+        <item android:id="@+id/nav_property"
+            android:icon="@drawable/ic_building"
+            android:title="List Your Property">
+        </item>
+
+
+      <item android:id="@+id/nav_our_services"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Our Services">
+      </item>
+
+        <item
+            android:id="@+id/nav_our_services1"
+            android:title="     •    Resort Booking">
+        </item>
+        <item
+            android:id="@+id/nav_our_services2"
+            android:title="     •    Tour Booking">
+        </item>
+        <item
+            android:id="@+id/nav_our_services3"
+            android:title="     •    Membership">
+        </item>
+        <item
+            android:id="@+id/nav_our_services4"
+            android:title="     •    Query Sharing">
+        </item>
+        <item
+            android:id="@+id/nav_our_services5"
+            android:title="     •    Online OTA'S Management">
+        </item>
+        <item
+            android:id="@+id/nav_our_services6"
+            android:title="     •    P.R. Marketing">
+        </item>
+        <item
+            android:id="@+id/nav_our_services7"
+            android:title="     •    T.A. Franchise Available">
+        </item>
+
+    </group>
+
+</menu>

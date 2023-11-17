@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/resort_booking_con"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp">
+
+    <!-- News Title -->
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/newsTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:text="PR Marketing"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- News Image -->
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/newsImage"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_margin="15dp"
+        android:scaleType="centerCrop"
+        android:src ="@drawable/pr_marketing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/newsTitle" />
+
+    <!-- News Description -->
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/newsDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginTop="8dp"
+        android:text="If you are having a hard time deciding how to integrate public relations strategies into your marketing plan, you are not alone. The lines have become so blurred in this age of integrated marketing that PR and marketing tactics are consistently crossing paths—but are typically not coordinated in advance."
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/newsImage" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="15dp"
+        android:background="#E3DDDD"
+        app:layout_constraintTop_toBottomOf="@id/newsDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
